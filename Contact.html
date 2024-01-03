@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Responsive Portfolio Website</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+  <style>
+    body {font-family: Arial, Helvetica, sans-serif;}
+    * {box-sizing: border-box;}
+    
+    input[type=text], select, textarea {
+      width: 100%;
+      padding: 12px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+      margin-top: 6px;
+      margin-bottom: 16px;
+      resize: vertical;
+    }
+    
+    input[type=submit] {
+      background-color: #04AA6D;
+      color: white;
+      padding: 12px 20px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    
+    input[type=submit]:hover {
+      background-color: #45a049;
+    }
+    
+    .container {
+      border-radius: 5px;
+      background-color: #f2f2f2;
+      padding: 20px;
+    }
+    </style>
+</head>
+<body>
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="tryit.asp-filename=trybs_navbar_right&stacked=h.html#">Kennedy 's Website</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li><a href="index.html">HOME</a></li>
+      <li><a href="portfolio.html">PORTFOLIO</a></li>
+      <li><a href="resume.html">MY RESUME</a></li>
+      <li><a href="articles.html">ARTICLES SECTION</a></li>
+      <li class="active"><a href="Contact.html">CONTACT</a></li>
+    </ul>
+    <ul class="nav navbar-nav navbar-right">
+      <li><a href="tryit.asp-filename=trybs_navbar_right&stacked=h.html#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+      <li><a href="tryit.asp-filename=trybs_navbar_right&stacked=h.html#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+    </ul>
+  </div>
+</nav>
+
+<!-- <nav class="nav nav-pills flex-column flex-sm-row">
+      <a class="flex-sm-fill text-sm-center nav-link active" aria-current="page" href="#">HOME</a>
+      <a class="flex-sm-fill text-sm-center nav-link" href="portfolio.html">PORTFOLIO</a>
+      <a class="flex-sm-fill text-sm-center nav-link" href="/resume.html"> MY RESUME</a> |
+      <a class="flex-sm-fill text-sm-center nav-link" href="/articles.html/">ARTICLES SECTION</a>
+      <a class="flex-sm-fill text-sm-center nav-link" href="/Contact.html/">CONTACT</a>
+    </nav> -->
+
+<div class="container">
+  <div class="page-header">
+      <h3>My Contact by Form</h3>      
+    </div>
+    <p>You can Contact me by entering your information in the below Form and I will get back to you soon!!!</p>
+    <hr color="black">
+    <h4>Contact Form</h4>
+    
+    <div class="form"> 
+      <form action="/kennedy@kabaso.com">
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+    
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+    
+        <label for="country">Country</label>
+        <select id="country" name="country">
+          <option value="usa">USA</option>
+          <option value="australia">Australia</option>
+          <option value="canada">Canada</option>
+        </select>
+    
+        <label for="subject">Subject</label>
+        <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+    
+        <input type="submit" value="Submit">
+      </form>
+      </div>
+    </div>
+    
+
+<footer class="footer">
+  <div class="container">
+      <span>
+          All Rights Reserved  &#64;Copy Right 2023-2024
+      </span>
+  </div>
+
+</footer>
+
+</body>
+</html>
